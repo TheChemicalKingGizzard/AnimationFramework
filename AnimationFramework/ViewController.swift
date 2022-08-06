@@ -6,14 +6,15 @@
 //
 
 import UIKit
+import SpringAnimation
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet var mainTextView: SpringTextView!
+    
+    @IBAction func startAnimation(_ sender: Any) {
+
     }
-
-
 }
 
+ 
