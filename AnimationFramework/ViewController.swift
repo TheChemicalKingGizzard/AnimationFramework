@@ -10,7 +10,6 @@ import SpringAnimation
 
 class ViewController: UIViewController {
     
-    var isFirstAnimation = true
     var currentAnimation = Animation()
     
     @IBOutlet var mainTextView: SpringTextView!
@@ -47,8 +46,6 @@ class ViewController: UIViewController {
                             duration: \(mainTextView.duration)
                             delay: \(mainTextView.delay)
                             """
-        
-        isFirstAnimation.toggle()
         mainTextView.animate()
         currentAnimation = nextAnimation
         sender.setTitle("Run \(nextAnimation.preset)", for: .normal)

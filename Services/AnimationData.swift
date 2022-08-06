@@ -9,6 +9,7 @@ class AnimationData {
                   "fadeInDown", "fadeInUp", "zoomIn", "zoomOut",
                   "fall", "shake", "flipX", "flipY", "morph",
                   "squeeze", "flash", "wobble", "swing"]
+    
     let curve = ["easeIn", "easeOut", "easeInOut", "linear",
                  "spring", "easeInSine", "easeOutSine",
                  "easeInOutSine", "easeInQuad", "easeOutQuad",
